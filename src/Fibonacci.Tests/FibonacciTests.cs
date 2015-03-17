@@ -56,9 +56,6 @@ namespace Fibonacci.Tests
         [Test]
         public void NthShouldThrowOutOfRangeException()
         {
-            Action longMinValue = () => Fibonaci.Nth(-92);
-            longMinValue.ShouldThrow<ArgumentOutOfRangeException>();
-
             Action longMaxValue = () => Fibonaci.Nth(92);
             longMaxValue.ShouldThrow<ArgumentOutOfRangeException>();
         }
