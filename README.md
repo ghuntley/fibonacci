@@ -27,7 +27,6 @@ Installation is done via NuGet:
 
     long fib = Fibonaci.Nth(91);                       // 4660046610375530309   
     long fib = Fibonaci.Nth(92);                       // ArgumentOutOfRangeException as fib would exceed Int64.MaxValue 
-    long fib = Fibonaci.Nth(92);                       // outofrangeexception - fib would exceed Int64.MaxValue 
     BigInteger fib = Fibonaci.Nth(new BigInteger(92))  // 7540113804746346429
     BigInteger fib = Fibonaci.Nth(new BigInteger(100)) // BigInteger.Parse("354224848179261915075")
     BigInteger fib = Fibonaci.Nth(new BigInteger(1000) // BigInteger.Parse("43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875"));
