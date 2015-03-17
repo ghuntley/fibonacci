@@ -1,5 +1,6 @@
 ![](http://i.imgur.com/U1xuDOk.png)
-# Fibonacci
+# Fibonacci [![Build status](https://ci.appveyor.com/api/projects/status/jv08td6erbve1239?svg=true)](https://ci.appveyor.com/project/ghuntley/fibonacci)
+
 
 Fibonacci is a sequence generator that is performant from Int32 all the way up to BigInteger. The current implementation
 of ```Fibonaci.Nth``` uses the [Fast Doubling](http://www.m-hikari.com/imf-password2008/1-4-2008/ulutasIMF1-4-2008.pdf) algorithm.  
