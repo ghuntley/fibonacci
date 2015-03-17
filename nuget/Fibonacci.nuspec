@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  For more info on this file format visit http://docs.nuget.org/docs/reference/nuspec-reference.
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Fibonacci</id>
+    <version>$version$</version>
+    <owners>ghuntley</owners>
+    <authors>Geoffrey Huntley</authors>
+    <title>Fibonacci</title>
+    <description>Fibonacci is a sequence generator that is performant from Int32 all the way up to BigInteger.</description>
+    <summary>Fibonacci is a sequence generator that is performant from Int32 all the way up to BigInteger.</summary>
+    <language>en-US</language>
+    <iconUrl>http://i.imgur.com/U1xuDOk.png</iconUrl>
+    <projectUrl>https://github.com/ghuntley/fibonacci</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>String Reverse Unicode PCL</tags>
+  </metadata>
+  <files>
+    <file src="..\src\Fibonacci\bin\Release\Fibonacci.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10" />
+    <file src="..\src\Fibonacci\*.cs" target="src" />
+  </files>
+</package>
