@@ -17,7 +17,7 @@
     <projectUrl>https://github.com/ghuntley/fibonacci</projectUrl>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>String Reverse Unicode PCL</tags>
+    <tags>Fibonacci sequence generator nth biginteger PCL</tags>
   </metadata>
   <files>
     <file src="..\src\Fibonacci\bin\Release\Fibonacci.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10" />
