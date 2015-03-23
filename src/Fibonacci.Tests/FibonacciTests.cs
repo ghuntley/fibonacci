@@ -11,6 +11,10 @@ namespace Fibonacci.Tests
         [Test]
         public void FastDoubleShouldBeExpected()
         {
+            Fibonaci.Nth(-46).Should().Be(-1836311903);
+            Fibonaci.Nth(-8).Should().Be(-21);
+            Fibonaci.Nth(-3).Should().Be(2);
+            Fibonaci.Nth(-2).Should().Be(-1);
             Fibonaci.Nth(-1).Should().Be(1);
             Fibonaci.Nth(0).Should().Be(1);
             Fibonaci.Nth(1).Should().Be(1);
@@ -56,6 +60,9 @@ namespace Fibonacci.Tests
         [Test]
         public void NthShouldThrowOutOfRangeException()
         {
+            Action longMinValue = () => Fibonaci.Nth(-92);
+            longMinValue.ShouldThrow<ArgumentOutOfRangeException>();
+
             Action longMaxValue = () => Fibonaci.Nth(92);
             longMaxValue.ShouldThrow<ArgumentOutOfRangeException>();
         }
